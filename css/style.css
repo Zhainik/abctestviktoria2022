@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&family=Literata:opsz,wght@7..72,600&family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER*/
+.navbar,
+.navbar nav,
+.links,
+.number {
+    display: flex;
+}
+
+/*CAP*/
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.navbar {
+    gap: 44px;
+}
+
+.header-viktoria {
+    padding-top: 11px;
+    padding-left: 75px;
+}
+
+.navbar nav {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links {
+    width: 842px;
+    gap: 17px;
+}
+
+.links a {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-number {
+    padding-left: 39px;
+    padding-right: 7px;
+}
+
+.number {
+    justify-content: center;
+    align-items: center;
+}
+
+.number h3 {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*IMG TEXT*/
+
+.header-content-circle {
+    width: 100%;
+    height: 684px;
+    background-image: url(../img/headerContentImgDark.png);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.header-content-img {
+    width: 100%;
+    height: 684px;
+    background-image: url(../img/headerContentImg.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.header-content {
+    padding-top: 227px;
+    padding-bottom: 213px;
+    position: relative;
+    z-index: 2;
+}
+
+.header-content-text {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.header-content-text h1 {
+    font-family: 'Montserrat';
+    font-size: 71px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+}
+
+.header-content-text h2 {
+    text-align: center;
+    font-family: 'Exo 2';
+    color: #DDD;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 42px 0;
+}
+
+.header-content-text button {
+    padding: 18px 73px;
+    background-color: #30426A;
+    border: none;
+    color: white;
+}
+
+.nav-whatsapp {
+    position: absolute;
+    z-index: 2;
+    top: 684px;
+    margin-left: auto;
+}
+
+/* MAIN */
+
+/* COPMANY*/
