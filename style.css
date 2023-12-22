@@ -1,0 +1,1037 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&family=Literata:opsz,wght@7..72,600&family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER*/
+.navbar,
+.links,
+.number {
+    display: flex;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbar {
+    align-items: center;
+    gap: 44px;
+    justify-content: center;
+}
+
+.header-viktoria {
+    padding-top: 11px;
+}
+
+.navbar nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    justify-content: center;
+    align-items: center;
+    width: 842px;
+    gap: 1.06rem;
+}
+
+.links a {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-number {
+    padding-right: 7px;
+}
+
+.number {
+    justify-content: center;
+    align-items: center;
+}
+
+.number h3 {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*IMG TEXT*/
+
+.one-content-circle {
+    width: 100vw;
+    height: 100vh;
+
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.one-content-img {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/headerContentImg.png);
+    background-size: cover;
+}
+
+.one-content {
+    padding-top: 227px;
+    position: relative;
+    z-index: 1;
+}
+
+.one-content-text {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.one-content-text h1 {
+    font-family: 'Montserrat';
+    font-size: 71px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+}
+
+.one-content-text h2 {
+    text-align: center;
+    font-family: 'Exo 2';
+    color: #DDD;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 42px 0;
+}
+
+.one-content-text button {
+    width: 18.375rem;
+    height: 3.125rem;
+    background-color: #30426A;
+    border: none;
+}
+
+.one-content-text button a {
+    color: white;
+    text-decoration: none;
+}
+
+.one-whatsapp {
+    position: absolute;
+    z-index: 2;
+    right: 1rem;
+    top: 100%;
+}
+
+/* MAIN */
+
+/* COPMANY */
+
+.about-company {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding: 6.25rem 0 0 4.69rem;
+}
+
+.img-company {
+    position: relative;
+    z-index: 2;
+}
+
+.background-company {
+    width: 36.1rem;
+    height: 28.8rem;
+    padding: 4.06rem 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.horizontal-line {
+    width: 0.0625rem;
+    height: 28.75rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    z-index: 1;
+    left: 39.06rem;
+    top: 10.31rem;
+}
+
+.vertical-line {
+    width: 36.6rem;
+    height: 0.0625rem;
+    background: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    z-index: 1;
+    top: 16.19rem;
+}
+
+.about-company-text {
+    width: 34rem;
+    padding: 6.44rem 0 0 7.7rem;
+}
+
+.about-company-text h1 {
+    font-family: 'Literata';
+    font-size: 2.625rem;
+    font-weight: 600;
+}
+
+.about-company-text p {
+    color: #656565;
+    font-family: 'Exo 2';
+    font-weight: 400;
+    padding-top: 1.55rem;
+}
+
+/* ABOUT-US */
+
+.background-about {
+    width: 100%;
+    height: 40rem;
+    position: absolute;
+    z-index: 0;
+    padding-top: 10.87rem;
+}
+
+.about-up {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.left-text-top {
+    width: 33.9rem;
+    height: 15.4rem;
+    padding: 16.19rem 3.14rem 0 4.69rem;
+}
+
+.about-left-text h1 {
+    font-family: 'Literata';
+    font-size: 2.625rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.about-left-text p {
+    font-family: 'Exo 2';
+    font-weight: 400;
+    padding-top: 1.55rem;
+    color: #E0E0E0;
+    line-height: 1.4375rem;
+}
+
+.left-text-down {
+    width: 33.1875rem;
+    height: 6.25rem;
+    padding: 6.45rem 3.94rem 0 4.69rem;
+}
+
+.left-text-down p {
+    padding-top: 0.94rem;
+}
+
+.about-horizontal-line {
+    width: 0.0625rem;
+    height: 40rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    left: 41.81rem;
+    top: 10.94rem;
+}
+
+.about-vertical-line {
+    width: 44.1rem;
+    height: 0.0625rem;
+    background: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    top: 35.31rem;
+    left: 4.69rem;
+}
+
+.about-img {
+    padding: 6.25rem 4.75rem 2.81rem 4.87rem;
+    position: relative;
+    z-index: 1;
+}
+
+.right-text-down {
+    padding: 0 4.7rem 0 4.87rem;
+}
+
+.right-text-down h1 {
+    font-family: 'Literata';
+    font-size: 2.625rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.right-text-down p {
+    font-family: 'Exo 2';
+    font-weight: 400;
+    padding-top: 0.92rem;
+    color: #E0E0E0;
+    line-height: 1.4375rem;
+}
+
+/* CONSULTING */
+
+.consulting {
+    padding-top: 6.25rem;
+}
+
+.consulting h2 {
+    text-align: center;
+    font-family: 'Literata';
+    font-size: 2.1rem;
+    font-weight: 600rem;
+    margin-bottom: 2.5rem;
+}
+
+.cards-consulting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.06rem;
+}
+
+/* WORK */
+
+.work {
+    padding-top: 6.25rem;
+}
+
+.work h2 {
+    text-align: center;
+    font-family: 'Literata';
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.cards-work {
+    width: 1245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.work-slider {
+    width: 1258px;
+    display: flex;
+    align-items: center;
+    gap: 2.06rem;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.work-slider div {
+    display: flex;
+    width: 1290px;
+    gap: 2.06rem;
+}
+
+.work-slider h2 {
+    color: #FFF;
+    font-family: 'Exo 2';
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-transform: uppercase;
+}
+
+.work-buttom {
+    margin-top: 1.88rem;
+    display: flex;
+    gap: 0.91rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-buttom img {
+    justify-content: center;
+    align-items: center;
+}
+
+.work-buttom-left {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #DBDBDB;
+    background: rgba(0, 0, 0, 0.00);
+}
+
+.work-buttom-center {
+    width: 24rem;
+    height: 1.5rem;
+    border: 1px solid #DBDBDB;
+    background: rgba(0, 0, 0, 0.00);
+}
+
+.work-buttom-right {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #DBDBDB;
+    background: rgba(0, 0, 0, 0.00);
+}
+
+/* OUTSOURCING */
+
+.outsourcing {
+    padding-top: 6.25rem;
+}
+
+.outsourcing h2 {
+    text-align: center;
+    font-family: 'Literata';
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.cards-outsourcing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 6.25rem;
+}
+
+/* NPA */
+
+.npa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.npa h2 {
+    text-align: center;
+    font-family: 'Literata';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.npa p {
+    color: #656565;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 3.06rem;
+}
+
+.card-npa {
+    width: 1260px;
+    overflow: hidden;
+}
+
+.npa-slider {
+    width: 3120px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.npa-img h1 {
+    margin-top: 6rem;
+    font-family: 'Exo 2';
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+}
+
+.npa-img {
+    width: 17.5rem;
+    height: 17.5rem;
+    padding-top: 1.44rem;
+    padding-left: 1.44rem;
+    background: #F4F5F9;
+}
+
+.npa-buttom {
+    margin-top: 1.88rem;
+    display: flex;
+    gap: 0.91rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.npa-buttom-left {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #DBDBDB;
+    background: rgba(0, 0, 0, 0.00);
+}
+
+.npa-buttom-center {
+    width: 24rem;
+    height: 1.5rem;
+    border: 1px solid #DBDBDB;
+    background: rgba(0, 0, 0, 0.00);
+}
+
+.npa-buttom-right {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #DBDBDB;
+    background: rgba(0, 0, 0, 0.00);
+}
+
+/* DOCUMENT */
+
+.document h2 {
+    margin-top: 6.25rem;
+    text-align: center;
+    font-family: 'Literata';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.document p {
+    color: #656565;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 3.06rem;
+}
+
+.document-card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.document-img h1 {
+    margin-top: 4.31rem;
+    font-family: 'Exo 2';
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+}
+
+.document-img {
+    width: 17.5rem;
+    height: 16rem;
+    padding-top: 1.44rem;
+    padding-left: 1.44rem;
+    background: #F4F5F9;
+}
+
+/* ADVANTAGES */
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages h2 {
+    margin-top: 6.25rem;
+    margin-bottom: 3.12rem;
+    text-align: center;
+    font-family: 'Literata';
+    font-size: 2.625rem;
+    font-weight: 600;
+}
+
+.card-advantages {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.advantages-info {
+    width: 24rem;
+    height: 20.5rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0px 4px 30px 0px rgba(39, 39, 39, 0.20);
+}
+
+.advantages-img {
+    margin-top: 2.62rem;
+    margin-bottom: 1.31rem;
+}
+
+.advantages-info h3 {
+    font-family: 'Exo 2';
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.advantages-info p {
+    width: 17.75rem;
+    font-family: 'Exo 2';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 1.38rem 3.13rem 1.94rem 3.13rem;
+}
+
+/* ALGORITHM */
+
+.algorithm {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.algorithm-buttom {
+    margin-top: 2.06rem;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    z-index: 1;
+    margin: 32.38rem 38.06rem;
+}
+
+.algorithm-buttom button {
+    background: #30426A;
+    border: none;
+}
+
+.algorithm-cards {
+    display: flex;
+    position: relative;
+}
+
+.img-algorithm {
+    width: 27.0625rem;
+    height: 29.0625rem;
+    position: absolute;
+    z-index: 1;
+    margin: 6.62rem 0 5.31rem 4.19rem;
+}
+
+.algorithm-horizontal-line {
+    width: 0.0625rem;
+    height: 30rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    left: -36.25rem;
+    top: -22rem;
+}
+
+.algorithm-vertical-line {
+    width: 31rem;
+    height: 0.0625rem;
+    background: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    top: 2.37rem;
+    left: -38rem;
+}
+
+.background-info {
+    width: 85.3rem;
+    height: 29.9375rem;
+    background-image: url(./img/background-algorithm.png);
+    margin-top: 10.69rem;
+    z-index: 0;
+}
+
+.algorithm-info {
+    display: flex;
+    flex-direction: column;
+    margin: 4.69rem 3.81rem 10.31rem 38.06rem;
+}
+
+.algorithm-info h1 {
+    color: #FFF;
+    font-family: 'Literata';
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    margin-top: 4.69rem;
+    margin-bottom: 3.1rem;
+}
+
+.algorithm-info h2 {
+    color: #FFF;
+    font-family: 'Exo 2';
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 0.93825rem;
+    margin-bottom: 1.56rem;
+}
+
+.algorithm-info p {
+    width: 32.5rem;
+    color: #DBDBDB;
+    font-family: 'Exo 2';
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+
+.algorithm-down {
+    display: flex;
+    margin-top: 2.58rem;
+    gap: 1.58rem;
+    align-items: center;
+    margin-bottom: 6.28rem;
+}
+
+.algorithm-down-progress {
+    width: 70.5rem;
+    margin-top: 0.69rem;
+    height: 0.0625rem;
+    background-color: #888;
+    margin-bottom: 8px;
+}
+
+.down-progress-filled {
+    background-color: #30426A;
+    width: 10.07rem;
+    height: 0.3125rem;
+    position: relative;
+}
+
+.algorithm-down h1 {
+    color: #888;
+    font-family: 'Exo 2';
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    margin-right: 1rem;
+}
+
+/* APPLICATION */
+
+.application {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.29rem;
+}
+
+.application-img {
+    position: relative;
+}
+
+.application-background {
+    position: absolute;
+}
+
+.application-left-line {
+    width: 0.0625rem;
+    height: 40rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    margin-left: 3.39rem;
+}
+
+.application-right-line {
+    width: 0.0625rem;
+    height: 40rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    margin-left: 82rem;
+}
+
+.application-top-line {
+    width: 85.3rem;
+    height: 0.0625rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    margin-top: 4.84rem;
+}
+
+.application-down-line {
+    width: 85.3rem;
+    height: 0.0625rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    margin-top: 30.43rem;
+}
+
+.application-text {
+    position: absolute;
+    margin: 10.06rem 33.54rem 8.71rem 4.69rem;
+}
+
+.application-text h1 {
+    color: #FFF;
+    font-family: 'Literata';
+    font-size: 2.625rem;
+    font-weight: 600;
+    margin-bottom: 1.43rem;
+}
+
+.application-text p {
+    color: #D6D6D6;
+    font-family: 'Exo 2';
+    line-height: 1.5rem;
+    margin-bottom: 1.94rem;
+}
+
+.application-input {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.21rem;
+}
+
+.application-input input {
+    width: 15.5885rem;
+    height: 3.4375rem;
+    background: #FFFFFF80;
+    border: 1px solid #FFFFFF80;
+}
+
+.application-input input::placeholder {
+    color: #FFF;
+    font-family: 'Exo 2';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-left: 1.53rem;
+}
+
+.application-input input:focus {
+    color: #FFF;
+    font-family: 'Exo 2';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-left: 1.53rem;
+}
+
+.application-input input:not(:focus) {
+    color: #FFF;
+    font-family: 'Exo 2';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-left: 1.53rem;
+}
+
+.application-text button {
+    width: 16.47056rem;
+    height: 3.125rem;
+}
+
+.application-text button a {
+    color: #30426A;
+    text-align: center;
+    font-family: Exo 2;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+
+/* CONTACTS */
+
+.contacts {
+    display: flex;
+}
+
+.contact {
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact h1 {
+    color: #151515;
+    font-family: 'Literata';
+    font-size: 2.625rem;
+}
+
+.contact-background {
+    position: absolute;
+    margin-bottom: 6.25rem;
+}
+
+.contact-left-line {
+    width: 0.0625rem;
+    height: 28.3rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    margin-left: 1.81rem;
+}
+
+.contact-right-line {
+    width: 0.0625rem;
+    height: 28.3rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    margin-left: 18.25rem;
+}
+
+.contact-top-line {
+    width: 85.3rem;
+    height: 0.0625rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    margin-top: 2.25rem;
+}
+
+.contact-down-line {
+    width: 85.3rem;
+    height: 0.0625rem;
+    opacity: 0.15;
+    background: #FFF;
+    position: absolute;
+    margin-top: 26.06rem;
+}
+
+.contact-text {
+    width: 14.1em;
+    height: 18.6rem;
+    position: absolute;
+    margin: 5rem 3rem;
+}
+
+.contact-text p {
+    color: #FFF;
+    font-family: 'Exo 2';
+}
+
+.contact-address {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.62rem;
+}
+
+.contact-address img {
+    margin-top: -20%;
+}
+
+.contact-line {
+    width: 14rem;
+    height: 0.0625rem;
+    opacity: 0.15;
+    background: #FFF;
+}
+
+.contact-call {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.19rem;
+    margin-bottom: 1.56rem;
+}
+
+.contact-email {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.13rem;
+    margin-bottom: 1.37rem;
+}
+
+.contact-email p {
+    text-decoration-line: underline;
+    text-transform: lowercase;
+}
+
+.contact-inst {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.35rem;
+}
+
+.map {
+    width: 53.8rem;
+    height: 33.75rem;
+    margin-bottom: 6.29rem;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background: #151515;
+    position: absolute;
+}
+
+.container-footer {
+    margin-top: 2.5rem;
+    margin-bottom: 1.55rem;
+}
+
+.footer-top {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.footer-top-text {
+    display: flex;
+    gap: 6.25rem;
+}
+
+.footer-top-text a {
+    color: #FFF;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-line {
+    width: 76rem;
+    height: 0.0625rem;
+    opacity: 0.15;
+    background: #FFF;
+    margin-top: 1.55rem;
+    margin-bottom: 1.15rem;
+}
+
+.container-footer h3 {
+    color: #A4A4A4;
+    font-family: 'Exo 2';
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 1360px) {
+    .container {}
+
+    main {
+
+        margin: 0 auto;
+    }
+
+    .card-npa {
+        width: 935px;
+    }
+}
